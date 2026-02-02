@@ -9,13 +9,28 @@
          </div>
          <div class="navbar-content">
              <ul class="nxl-navbar">
-                 <li class="nxl-item nxl-caption">
-                     <label>Navigation</label>
-                 </li>
+
                  <li class="nxl-item">
                      <a href="{{url('/dashboard')}}" class="nxl-link">
                          <span class="nxl-micon"><i class="feather-airplay"></i></span>
                          <span class="nxl-mtext">Dashboards</span>
+                     </a>
+
+                 </li>
+
+                 <li class="nxl-item">
+                     <a href="{{url('/customer')}}" class="nxl-link">
+                         <span class="nxl-micon"><i class="feather-user"></i></span>
+                         <span class="nxl-mtext">Customers</span>
+                     </a>
+
+                 </li>
+
+
+                 <li class="nxl-item">
+                     <a href="{{url('/housemanager')}}" class="nxl-link">
+                         <span class="nxl-micon"><i class="feather-home"></i></span>
+                         <span class="nxl-mtext">House Manager</span>
                      </a>
 
                  </li>

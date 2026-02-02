@@ -131,7 +131,7 @@
 
 
 
-                         <a href="javascript:void(0);" class="dropdown-item">
+                         <a href="{{url('/profile')}}" class="dropdown-item">
                              <i class="feather-user"></i>
                              <span>Profile Details</span>
                          </a>
