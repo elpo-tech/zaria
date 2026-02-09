@@ -5,11 +5,11 @@ namespace App\Http\Controllers\dashboard;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class Employees extends Controller
+class Placements extends Controller
 {
-    public function empl()
+    public function placements()
     {
-        return view('dashboard.empl');
+        return view('dashbord.placements');
     }
     //
 }
