@@ -9,7 +9,7 @@ class Placements extends Controller
 {
     public function placements()
     {
-        return view('dashbord.placements');
+        return view('dashboard.placements');
     }
     //
 }

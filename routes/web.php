@@ -23,7 +23,7 @@ Route::get('/housemanager', [Housem::class, 'manager'])->name('housemanager');
 Route::get('/profile', [Dash::class, 'profile'])->name('profile');
 Route::get('/roles', [Roles::class, 'roles'])->name('roles');
 Route::get('/employees',[Employees::class,'empl'])->name('employees');
-ROUTE::get('/appointments',[Appointments::class,'app'])->name('appointments');
+ROUTE::get('/appointments',[Appointments::class,'appointments'])->name('appointments');
 ROUTE::get('/paymentsc', [Paymentsc::class,'paymc'])->name('paymentsc');
 ROUTE::get('/interviews',[Interviews::class,'interviews'])->name('interviews');
 ROUTE::get('/placements',[Placements::class,'placements'])->name('placements');
