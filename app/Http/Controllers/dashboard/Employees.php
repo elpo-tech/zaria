@@ -7,9 +7,18 @@ use Illuminate\Http\Request;
 
 class Employees extends Controller
 {
-    public function empl()
+    public function staff()
     {
         return view('dashboard.empl');
     }
-    //
+
+    public function man()
+    {
+        return view('dashboard.man');
+    }
+
+    public function oth()
+    {
+        return view('dashboard.othuser');
+    }
 }

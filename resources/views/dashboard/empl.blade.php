@@ -1,5 +1,5 @@
-s@include('dashboard.parts.head')
-<title>Zaria Center || Employees</title>
+@include('dashboard.parts.head')
+<title>Zaria Center || Staff</title>
 </head>
 
 <body>
@@ -30,7 +30,8 @@ s@include('dashboard.parts.head')
                     </div>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="{{url('/dashboard')}}">Home</a></li>
-                        <li class="breadcrumb-item">Employees</li>
+                        <li class="breadcrumb-item">Users</li>
+                        <li class="breadcrumb-item">Staff</li>
                     </ul>
                 </div>
 

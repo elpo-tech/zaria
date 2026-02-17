@@ -9,7 +9,11 @@ class Uniforms extends Controller
 {
     public function uniforms()
     {
-        return view('dashboard.uniforms');
+        return view('dashboard.uniform.uniforms');
     }
-    //
+
+    public function sale()
+    {
+        return view('dashboard.uniform.sale');
+    }
 }

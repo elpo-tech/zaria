@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="/assets/vendors/css/vendors.min.css" />
     <link rel="stylesheet" type="text/css" href="/assets/vendors/css/daterangepicker.min.css" />
     <!--! END: Vendors CSS-->
+    <link rel="stylesheet" type="text/css" href="/assets/vendors/css/dataTables.bs5.min.css">
     <!--! BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="/assets/css/theme.min.css" />
     <!--! END: Custom CSS-->

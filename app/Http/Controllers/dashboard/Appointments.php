@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 
 class Appointments extends Controller
 {
-    public function appointments()
+    public function app()
     {
         return view('dashboard.appointments');
     }
- 
-//
+
+    //
 }
