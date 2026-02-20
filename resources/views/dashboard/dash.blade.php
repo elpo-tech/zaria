@@ -105,7 +105,7 @@
             <!-- [ Main Content ] start -->
             <div class="main-content">
                 <div class="row">
-                    <!-- [Invoices Awaiting Payment] start -->
+                    <!-- [Employee Details] start -->
                     <div class="col-xxl-3 col-md-6">
                         <div class="card stretch stretch-full">
                             <div class="card-body">
@@ -116,7 +116,7 @@
                                         </div>
                                         <div>
                                             <div class="fs-4 fw-bold text-dark"><span class="counter">45</span>/<span class="counter">76</span></div>
-                                            <h3 class="fs-13 fw-semibold text-truncate-1-line">Invoices Awaiting Payment</h3>
+                                            <h3 class="fs-13 fw-semibold text-truncate-1-line">Employee Details</h3>
                                         </div>
                                     </div>
                                     <a href="javascript:void(0);" class="">
@@ -138,8 +138,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- [Invoices Awaiting Payment] end -->
-                    <!-- [Converted Leads] start -->
+                    <!-- [Employee Details] end -->
+                    <!-- [Roles to be Performed ] start -->
                     <div class="col-xxl-3 col-md-6">
                         <div class="card stretch stretch-full">
                             <div class="card-body">
@@ -150,7 +150,7 @@
                                         </div>
                                         <div>
                                             <div class="fs-4 fw-bold text-dark"><span class="counter">48</span>/<span class="counter">86</span></div>
-                                            <h3 class="fs-13 fw-semibold text-truncate-1-line">Converted Leads</h3>
+                                            <h3 class="fs-13 fw-semibold text-truncate-1-line">Roles to be Performed</h3>
                                         </div>
                                     </div>
                                     <a href="javascript:void(0);" class="">
@@ -172,8 +172,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- [Converted Leads] end -->
-                    <!-- [Projects In Progress] start -->
+                    <!-- [Roles to be Performed] end -->
+                    <!-- [Customers Details] start -->
                     <div class="col-xxl-3 col-md-6">
                         <div class="card stretch stretch-full">
                             <div class="card-body">
@@ -184,7 +184,7 @@
                                         </div>
                                         <div>
                                             <div class="fs-4 fw-bold text-dark"><span class="counter">16</span>/<span class="counter">20</span></div>
-                                            <h3 class="fs-13 fw-semibold text-truncate-1-line">Projects In Progress</h3>
+                                            <h3 class="fs-13 fw-semibold text-truncate-1-line">Customers Details</h3>
                                         </div>
                                     </div>
                                     <a href="javascript:void(0);" class="">
@@ -206,8 +206,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- [Projects In Progress] end -->
-                    <!-- [Conversion Rate] start -->
+                    <!-- [Customer Details] end -->
+                    <!-- [Housemanager Details] start -->
                     <div class="col-xxl-3 col-md-6">
                         <div class="card stretch stretch-full">
                             <div class="card-body">
@@ -218,7 +218,7 @@
                                         </div>
                                         <div>
                                             <div class="fs-4 fw-bold text-dark"><span class="counter">46.59</span>%</div>
-                                            <h3 class="fs-13 fw-semibold text-truncate-1-line">Conversion Rate</h3>
+                                            <h3 class="fs-13 fw-semibold text-truncate-1-line">Housemanager Details</h3>
                                         </div>
                                     </div>
                                     <a href="javascript:void(0);" class="">
@@ -240,7 +240,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- [Conversion Rate] end -->
+                    <!-- [Housemanager Details] end -->
                     <!-- [Payment Records] start -->
                     <div class="col-xxl-8">
                         <div class="card stretch stretch-full">
