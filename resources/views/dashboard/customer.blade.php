@@ -60,10 +60,10 @@
                                                     </div>
                                                 </th>
                                                 <th>Client N0.</th>
-                                                <th>Client</th>
+                                                <th>Client Names</th>
                                                 <th>No. of Girls</th>
                                                 <th>Join Date</th>
-                                                <th>Transaction</th>
+                                                <th>Housemanager Name</th>
                                                 <th>Status</th>
                                                 <th class="text-end">Actions</th>
                                             </tr>
@@ -78,21 +78,21 @@
                                                         </div>
                                                     </div>
                                                 </td>
-                                                <td><a href="invoice-view.html" class="fw-bold">#321456</a></td>
+                                                <td><a href="invoice-view.html" class="fw-bold">#001</a></td>
                                                 <td>
                                                     <a href="javascript:void(0)" class="hstack gap-3">
                                                         <div class="avatar-image avatar-md">
                                                             <img src="assets/images/avatar/1.png" alt="" class="img-fluid">
                                                         </div>
                                                         <div>
-                                                            <span class="text-truncate-1-line">Alexandra Della</span>
-                                                            <small class="fs-12 fw-normal text-muted">alex@example.com</small>
+                                                            <span class="text-truncate-1-line">Nancy Jebet</span>
+                                                            <small class="fs-12 fw-normal text-muted">nancy@example.com</small>
                                                         </div>
                                                     </a>
                                                 </td>
-                                                <td class="fw-bold text-dark">$249.99 USD</td>
-                                                <td>2023-04-25, 03:42PM</td>
-                                                <td><a href="javascript:void(0);">#SDEG4589SE1E</a></td>
+                                                <td class="fw-bold text-dark">1</td>
+                                                <td>2026-01-01</td>
+                                                <td><a href="javascript:void(0);">Brigit Nanjala</a></td>
                                                 <td>
                                                     <div class="badge bg-soft-success text-success">Complted</div>
                                                 </td>
@@ -158,21 +158,21 @@
                                                         </div>
                                                     </div>
                                                 </td>
-                                                <td><a href="invoice-view.html" class="fw-bold">#987456</a></td>
+                                                <td><a href="invoice-view.html" class="fw-bold">#002</a></td>
                                                 <td>
                                                     <a href="javascript:void(0)" class="hstack gap-3">
                                                         <div class="avatar-image avatar-md bg-warning text-white">N</div>
                                                         <div>
-                                                            <span class="text-truncate-1-line">Nancy Elliot</span>
-                                                            <small class="fs-12 fw-normal text-muted">nancy.elliot@outlook.com</small>
+                                                            <span class="text-truncate-1-line">Ruth Kemboi</span>
+                                                            <small class="fs-12 fw-normal text-muted">ruth@outlook.com</small>
                                                         </div>
                                                     </a>
                                                 </td>
-                                                <td class="fw-bold text-dark">$120.50 USD</td>
-                                                <td>2023-05-20, 12:23PM</td>
-                                                <td><a href="javascript:void(0);">#SDEG4589SE1E</a></td>
+                                                <td class="fw-bold text-dark">1</td>
+                                                <td>2026-01-02, </td>
+                                                <td><a href="javascript:void(0);">Linet Luti</a></td>
                                                 <td>
-                                                    <div class="badge bg-soft-warning text-warning">Unpaid</div>
+                                                    <div class="badge bg-soft-warning text-warning">Paid</div>
                                                 </td>
                                                 <td>
                                                     <div class="hstack gap-2 justify-content-end">
@@ -236,23 +236,23 @@
                                                         </div>
                                                     </div>
                                                 </td>
-                                                <td><a href="invoice-view.html" class="fw-bold">#741258</a></td>
+                                                <td><a href="invoice-view.html" class="fw-bold">#003</a></td>
                                                 <td>
                                                     <a href="javascript:void(0)" class="hstack gap-3">
                                                         <div class="avatar-image avatar-md">
                                                             <img src="assets/images/avatar/2.png" alt="" class="img-fluid">
                                                         </div>
                                                         <div>
-                                                            <span class="text-truncate-1-line">Green Cute</span>
-                                                            <small class="fs-12 fw-normal text-muted">green.cute@outlook.com</small>
+                                                            <span class="text-truncate-1-line">Jane Momanyi</span>
+                                                            <small class="fs-12 fw-normal text-muted">jane@outlook.com</small>
                                                         </div>
                                                     </a>
                                                 </td>
-                                                <td class="fw-bold text-dark">$300.00 USD</td>
-                                                <td>2023-01-02, 10:36AM</td>
-                                                <td><a href="javascript:void(0);">#SDEG4589SE1E</a></td>
+                                                <td class="fw-bold text-dark">1</td>
+                                                <td>2026-01-02</td>
+                                                <td><a href="javascript:void(0);">Daisy Andisi</a></td>
                                                 <td>
-                                                    <div class="badge bg-soft-success text-success">Complted</div>
+                                                    <div class="badge bg-soft-success text-success">Paid</div>
                                                 </td>
                                                 <td>
                                                     <div class="hstack gap-2 justify-content-end">
@@ -316,21 +316,21 @@
                                                         </div>
                                                     </div>
                                                 </td>
-                                                <td><a href="invoice-view.html" class="fw-bold">#321456</a></td>
+                                                <td><a href="invoice-view.html" class="fw-bold">#004</a></td>
                                                 <td>
                                                     <a href="javascript:void(0)" class="hstack gap-3">
                                                         <div class="avatar-image avatar-md bg-teal text-white">H</div>
                                                         <div>
-                                                            <span class="text-truncate-1-line">Henry Leach</span>
-                                                            <small class="fs-12 fw-normal text-muted">henry.leach@outlook.com</small>
+                                                            <span class="text-truncate-1-line">Joyce</span>
+                                                            <small class="fs-12 fw-normal text-muted">joyce@outlook.com</small>
                                                         </div>
                                                     </a>
                                                 </td>
-                                                <td class="fw-bold text-dark">$249.99 USD</td>
-                                                <td>2023-04-25, 04:22PM</td>
+                                                <td class="fw-bold text-dark">1</td>
+                                                <td>2026-01-02, 04:22PM</td>
                                                 <td><a href="javascript:void(0);">#SDEG4589SE1E</a></td>
                                                 <td>
-                                                    <div class="badge bg-soft-success text-success">Complted</div>
+                                                    <div class="badge bg-soft-success text-success">Paid</div>
                                                 </td>
                                                 <td>
                                                     <div class="hstack gap-2 justify-content-end">
@@ -394,23 +394,23 @@
                                                         </div>
                                                     </div>
                                                 </td>
-                                                <td><a href="invoice-view.html" class="fw-bold">#357895</a></td>
+                                                <td><a href="invoice-view.html" class="fw-bold">#004</a></td>
                                                 <td>
                                                     <a href="javascript:void(0)" class="hstack gap-3">
                                                         <div class="avatar-image avatar-md">
                                                             <img src="assets/images/avatar/3.png" alt="" class="img-fluid">
                                                         </div>
                                                         <div>
-                                                            <span class="text-truncate-1-line">Marianne Audrey</span>
-                                                            <small class="fs-12 fw-normal text-muted">marine.adrey@outlook.com</small>
+                                                            <span class="text-truncate-1-line">Patricia Kosgei</span>
+                                                            <small class="fs-12 fw-normal text-muted">patricia@outlook.com</small>
                                                         </div>
                                                     </a>
                                                 </td>
-                                                <td class="fw-bold text-dark">$150.00 USD</td>
-                                                <td>2023-02-15, 05:23PM</td>
-                                                <td><a href="javascript:void(0);">#SDEG4589SE1E</a></td>
+                                                <td class="fw-bold text-dark">1</td>
+                                                <td>2026-01-02</td>
+                                                <td><a href="javascript:void(0);">Teresia Wakarima</a></td>
                                                 <td>
-                                                    <div class="badge bg-soft-success text-success">Complted</div>
+                                                    <div class="badge bg-soft-success text-success">Paid</div>
                                                 </td>
                                                 <td>
                                                     <div class="hstack gap-2 justify-content-end">
