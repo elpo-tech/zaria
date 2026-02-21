@@ -33,16 +33,6 @@
                         <li class="breadcrumb-item">Interviews</li>
                     </ul>
                 </div>
-  
-                <div class="page-header-left d-flex align-items-center">
-                    <div class="page-header-title">
-                        <h5 class="m-b-10">Payment</h5>
-                    </div>
-                    <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item">Payment</li>
-                    </ul>
-                </div>
                 <div class="page-header-right ms-auto">
                       <a href="invoice-create.html" class="btn btn-primary">
                                 <i class="feather-plus me-2"></i>
