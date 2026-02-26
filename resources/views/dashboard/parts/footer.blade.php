@@ -6,7 +6,7 @@
              document.write(new Date().getFullYear());
          </script>
      </p>
-     <p><span> Design By: <a target="_blank" href="https://elpotechcompany.com" target="_blank">ELPO-TECH COMPANY</a></span> </p>
+     <p><span> Design By: <a target="_blank" href="https://elpotechcompany.com" target="_blank">PHAUSTINE</a></span> </p>
 
  </footer>
  <!-- [ Footer ] end -->
