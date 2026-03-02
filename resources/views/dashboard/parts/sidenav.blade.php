@@ -1,3 +1,4 @@
+ @include('sweetalert::alert')
  <nav class="nxl-navigation">
      <div class="navbar-wrapper">
          <div class="m-header">

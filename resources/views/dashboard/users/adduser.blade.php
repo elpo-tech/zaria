@@ -77,7 +77,7 @@
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="profileTab" role="tabpanel">
                                     <div class="card-body personal-info">
-                                        <form method="POST" onsubmit="return validateForm();" action="{{route('add.user')}}">
+                                        <form method="POST" action="{{route('add.user')}}">
                                             @csrf
                                             <div class="row">
                                                 <div class="col-md-6">
