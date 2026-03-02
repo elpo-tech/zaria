@@ -1,0 +1,46 @@
+zaria databases
+
+Employees/Staff/Users
++name
++fname
++email
++phone
++gender
++role/dept
++status
++password
+
+
+Clients
++fname
++location
++phone
++gender
++email
++housesize
++No of people
++nogirls
++girlid
++pay
++uniform
++interview
+
+
+GIRLS
++fname
++idnum
++phone
++ClientID
++email
++county
++village
++whatsnum
++passport
++nearest school
++primary
++secondary
++college
++femployer
++jobtype
++pay
++interview

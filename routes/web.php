@@ -28,6 +28,8 @@ Route::get('/profile', [Dash::class, 'profile'])->name('profile');
 Route::get('/staff', [Employees::class, 'staff'])->name('staffs');
 Route::get('/managers', [Employees::class, 'man'])->name('managers');
 Route::get('/Others', [Employees::class, 'oth'])->name('others');
+Route::get('/add_user', [Employees::class, 'user'])->name('add_user');
+Route::POST("/adduser", [Employees::class, "adduserdb"])->name("add.user");
 
 ROUTE::get('/appointments', [DashboardAppointments::class, 'app'])->name('appointments');
 

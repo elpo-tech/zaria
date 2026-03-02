@@ -9,16 +9,21 @@ class Employees extends Controller
 {
     public function staff()
     {
-        return view('dashboard.empl');
+        return view('dashboard.users.empl');
     }
 
     public function man()
     {
-        return view('dashboard.man');
+        return view('dashboard.users.man');
     }
 
     public function oth()
     {
-        return view('dashboard.othuser');
+        return view('dashboard.users.othuser');
+    }
+
+    public function user()
+    {
+        return view('dashboard.users.adduser');
     }
 }
