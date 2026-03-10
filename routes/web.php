@@ -24,6 +24,7 @@ Route::get('/dashboard', [Dash::class, 'dash'])->name('home');
 Route::get('/clients', [Customer::class, 'custo'])->name('clients');
 Route::get('/housemanager', [Housem::class, 'manager'])->name('housemanager');
 Route::get('/profile', [Dash::class, 'profile'])->name('profile');
+Route::POST("/addhousem", [Housem::class, "addhousemdb"])->name("add.housemanager");
 
 Route::get('/staff', [Employees::class, 'staff'])->name('staffs');
 Route::get('/managers', [Employees::class, 'man'])->name('managers');
