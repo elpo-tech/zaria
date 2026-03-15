@@ -20,7 +20,11 @@ use App\Http\Controllers\dashboard\Set;
 use App\Http\Controllers\dashboard\uniforms;
 
 Route::get('/', [Zaria::class, 'index'])->name('index');
+Route::POST('/login_validate', [Zaria::class, 'login'])->name('lvalidate');
+Route::get('/logout', [Zaria::class, 'logout'])->name('logout');
 Route::get('/dashboard', [Dash::class, 'dash'])->name('home');
+Route::POST('/update_profile', [Dash::class, 'update_pro'])->name('profile.update');
+Route::POST('/update_password', [Dash::class, 'update_pass'])->name('password.update');
 Route::get('/clients', [Customer::class, 'custo'])->name('clients');
 Route::get('/housemanager', [Housem::class, 'manager'])->name('housemanager');
 Route::get('/profile', [Dash::class, 'profile'])->name('profile');
@@ -31,6 +35,9 @@ Route::get('/managers', [Employees::class, 'man'])->name('managers');
 Route::get('/Others', [Employees::class, 'oth'])->name('others');
 Route::get('/add_user', [Employees::class, 'user'])->name('add_user');
 Route::POST("/adduser", [Employees::class, "adduserdb"])->name("add.user");
+Route::get('/view_user/{id}', [Employees::class, 'view_user'])->name('view_user');
+Route::POST("/edit_user/{id}", [Employees::class, "edituserdb"])->name("edit.user");
+Route::get("/delete_user/{id}", [Employees::class, "deleteuserdb"])->name("delete.user");
 
 ROUTE::get('/appointments', [DashboardAppointments::class, 'app'])->name('appointments');
 

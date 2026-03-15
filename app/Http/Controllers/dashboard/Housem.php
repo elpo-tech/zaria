@@ -43,7 +43,7 @@ class Housem extends Controller
 
         $data = $request->all();
         
-        Housem::create([
+        Housem::Create([
             'fname' => $data['fname'],
             'idnum' => $data['idnum'],
             'phone' => $data['phone'],

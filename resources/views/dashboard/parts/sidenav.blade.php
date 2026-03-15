@@ -143,7 +143,7 @@
                      </ul>
                  </li>
                  <li class="nxl-item">
-                     <a href="{{url('/')}}" class="nxl-link">
+                     <a href="{{url('/logout')}}" class="nxl-link">
                          <span class="nxl-micon"><i class="feather-log-out"></i></span>
                          <span class="nxl-mtext">Logout</span>
                      </a>

@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('idnum');
             $table->string('phone')->nullable();
             $table->string('whatsnum')->nullable();
-               $table->string('loc')->nullable();
+            $table->string('loc')->nullable();
             $table->string('county')->nullable();
             $table->string('gen')->nullable();
             $table->string('email')->nullable();
@@ -43,10 +43,6 @@ return new class extends Migration
             $table->string('foth9')->nullable();
             $table->string('foth10')->nullable();
             $table->timestamps();
-    
-
-    
-
         });
     }
 

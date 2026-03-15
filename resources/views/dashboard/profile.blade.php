@@ -56,10 +56,7 @@
                                         href="#v-pills-notifications" role="tab">
                                         <i class="feather-bell me-2"></i>Notification
                                     </a>
-                                    <a class="nav-link text-danger" id="v-pills-delete-tab" data-bs-toggle="pill"
-                                        href="#v-pills-delete" role="tab">
-                                        <i class="feather-trash-2 me-2"></i>Delete Account
-                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -74,13 +71,21 @@
                                         <h5 class="card-title">Profile Details</h5>
                                     </div>
                                     <div class="card-body">
-                                        <form action="#"
-                                            enctype="multipart/form-data">
+                                        <form action="{{ route('profile.update') }}" method="POST" enctype="multipart/form-data">
                                             @csrf
+                                            @if ($errors->any())
+                                            <div class="alert alert-danger">
+                                                <ul>
+                                                    @foreach ($errors->all() as $error)
+                                                    <li>{{ $error }}</li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                            @endif
                                             <div class="row mb-4 align-items-center">
                                                 <div class="col-sm-3">
                                                     <div class="avatar-image avatar-xxl border">
-                                                        <img src="/assets/images/avatar/1.png" alt="Profile"
+                                                        <img src="{{ asset('profiles/' . Auth::user()->foth1) }}" alt="Profile"
                                                             class="img-fluid rounded" id="profile-preview">
                                                     </div>
                                                 </div>
@@ -95,23 +100,34 @@
                                             <div class="row g-3">
                                                 <div class="col-md-6">
                                                     <label class="form-label">Full Name</label>
-                                                    <input type="text" class="form-control" name="name"
-                                                        value="System Administrator">
+                                                    <input type="text" class="form-control" name="fname"
+                                                        value="{{ Auth::user()->fname }}" required>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <label class="form-label">Phone Number</label>
                                                     <input type="text" class="form-control" name="phone"
-                                                        value="+254 700 000 000">
+                                                        value="{{ Auth::user()->phone }}" required>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <label class="form-label">County</label>
-                                                    <input type="text" class="form-control" name="county"
-                                                        value="Nairobi">
+                                                    <label class="form-label">Email</label>
+                                                    <input type="text" class="form-control" name="email"
+                                                        value="{{ Auth::user()->email }}" required>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <label class="form-label">Country</label>
-                                                    <input type="text" class="form-control" name="country"
-                                                        value="Kenya">
+                                                    <label class="form-label">User Name</label>
+                                                    <input type="text" class="form-control" name="username"
+                                                        value="{{ Auth::user()->uname }}" disabled>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <label class="form-label">Role</label>
+                                                    <input type="text" class="form-control"
+                                                        value="{{ Auth::user()->role }}" disabled>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label class="form-label">Status</label>
+                                                    <input type="text" class="form-control"
+                                                        value="{{ Auth::user()->status }}" disabled>
                                                 </div>
                                             </div>
 
@@ -129,18 +145,19 @@
                                         <h5 class="card-title">Change Password</h5>
                                     </div>
                                     <div class="card-body">
-                                        <form action="#">
+                                        <form action="{{ route('password.update') }}" method="POST">
                                             @csrf
+
                                             <div class="row g-3">
                                                 <div class="col-lg-6">
                                                     <label class="form-label">New Password</label>
                                                     <input type="password" name="password" class="form-control"
-                                                        placeholder="Enter new password">
+                                                        placeholder="Enter new password" require>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <label class="form-label">Confirm New Password</label>
                                                     <input type="password" name="password_confirmation"
-                                                        class="form-control" placeholder="Confirm new password">
+                                                        class="form-control" placeholder="Confirm new password" required>
                                                 </div>
                                             </div>
                                             <div class="mt-4">
