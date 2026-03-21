@@ -43,16 +43,32 @@
                     <div class="wd-50 bg-white p-2 rounded-circle shadow-lg position-absolute translate-middle top-0 start-50">
                         <img src="/assets/images/logo-abbr.png" alt="" class="img-fluid">
                     </div>
+
                     <div class="card-body p-sm-5">
                         <h2 class="fs-20 fw-bolder mb-4">Login</h2>
+                        @if($message = Session::get('success'))
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>Attention!!! </strong> {{$message}}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        @endif
+
+                        @if($message = Session::get('error'))
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>{{$message}} </strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        @endif
+
                         <h4 class="fs-13 fw-bold mb-2">Login to your account</h4>
 
-                        <form action="index.html" class="w-100 mt-4 pt-2">
+                        <form action="{{route('lvalidate')}}" method="POST" class="w-100 mt-4 pt-2">
+                            @csrf
                             <div class="mb-4">
-                                <input type="email" class="form-control" placeholder="Email or Username" required>
+                                <input type="text" class="form-control" name="name" placeholder="Email or Username" required>
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control" placeholder="Password" required>
+                                <input type="password" class="form-control" name="password" placeholder="Password" required>
                             </div>
                             <div class="d-flex align-items-center justify-content-between">
                                 <div>
@@ -62,11 +78,11 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <a href="auth-reset-minimal.html" class="fs-11 text-primary">Forget password?</a>
+                                    <a href="#" class="fs-11 text-primary">Forget password?</a>
                                 </div>
                             </div>
                             <div class="mt-5">
-                                <a type="submit" href="{{url('/dashboard')}}" class="btn btn-lg btn-primary w-100">Login</a>
+                                <button type="submit" class="btn btn-lg btn-primary w-100">Login</button>
                             </div>
                         </form>
 

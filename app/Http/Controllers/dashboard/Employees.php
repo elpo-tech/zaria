@@ -17,7 +17,12 @@ class Employees extends Controller
 
     public function man()
     {
-        return view('dashboard.users.man');
+
+
+        $gusers = User::where('role', '!=', 'Staff')->orWhere('role', '!=', 'Other')->get();
+
+
+        return view('dashboard.users.man', compact('gusers'));
     }
 
     public function oth()
@@ -28,6 +33,63 @@ class Employees extends Controller
     public function user()
     {
         return view('dashboard.users.adduser');
+    }
+
+
+    public function view_user($id)
+    {
+        $user = User::findOrFail($id);
+
+        return view('dashboard.users.view_user', compact('user'));
+    }
+
+    public function edituserdb(Request $request, $id)
+    {
+
+
+
+        // Update the user
+        $user = User::findOrFail($id);
+        $data = $request->all();
+
+
+        try {
+            $user->status = $data['status'];
+        } catch (\Throwable $th) {
+            //throw $th;
+        }
+
+        try {
+            $user->role = $data['role'];
+        } catch (\Throwable $th) {
+            //throw $th;
+        }
+
+        try {
+            $user->phone = $data['phone'];
+        } catch (\Throwable $th) {
+            //throw $th;
+        }
+
+
+        $user->fname = $data['fname'];
+        $user->email = $data['email'];
+
+
+        $user->update();
+
+        Alert::success('User updated successfully!');
+        return back()->with('success', 'User updated successfully!');
+    }
+
+
+    public function deleteuserdb($id)
+    {
+        $user = User::findOrFail($id);
+        $user->delete();
+
+        Alert::success('User deleted successfully!');
+        return back()->with('success', 'User deleted successfully!');
     }
 
     public function adduserdb(Request $request)
@@ -73,6 +135,7 @@ class Employees extends Controller
             'status' => $status,
             'password' => Hash::make($phone),
             'role' => $role,
+            'foth1' => '1.png',
         ]);
 
 
